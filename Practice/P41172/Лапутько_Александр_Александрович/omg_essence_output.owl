@@ -1,0 +1,359 @@
+@prefix : <http://www.semanticweb.org/alexander/ontologies/2020/3/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+: a owl:Ontology ;
+    :omg_essence "" .
+
+:Advertiser a _:ub1bL121C22,
+        _:ub1bL37C21,
+        owl:NamedIndividual ;
+    rdfs:label "Advertiser" ;
+    :demand :technical_task_of_advertising ;
+    :provide :financing .
+
+:Apple a _:ub1bL121C22,
+        _:ub1bL158C22,
+        _:ub1bL37C21,
+        owl:NamedIndividual ;
+    rdfs:label "Apple" ;
+    :demand :requirements_App_store_apps ;
+    :provide :platform_apps ;
+    :support :documentations .
+
+:AppleStore a :stakeholders,
+        owl:NamedIndividual ;
+    :demand :Требования_app_store ;
+    :provide :Apps_store .
+
+:Build a _:ub1bL61C22,
+        _:ub1bL85C30,
+        owl:NamedIndividual ;
+    rdfs:label "Build" ;
+    :fulfils :Questionnaire ;
+    :helps_to_adress :business_plan .
+
+:Business_plan a _:ub1bL49C22,
+        owl:NamedIndividual ;
+    rdfs:label "Business plan" ;
+    :focuses :requirements_for_the_business_plan .
+
+:Design_Model a _:ub1bL61C22,
+        _:ub1bL85C30,
+        owl:NamedIndividual ;
+    rdfs:label "Design Model" ;
+    :fulfils :technical_task ;
+    :helps_to_adress :system_concept .
+
+:Google a _:ub1bL121C22,
+        _:ub1bL158C22,
+        _:ub1bL37C21,
+        owl:NamedIndividual ;
+    rdfs:label "Google" ;
+    :demand :requirements_Play_market_apps ;
+    :provide :platform_apps ;
+    :support :documentations .
+
+:GoogleStore a :stakeholders,
+        owl:NamedIndividual ;
+    :demand :Требования_play_store ;
+    :provide :Apps_store .
+
+:System_concept a _:ub1bL49C22,
+        owl:NamedIndividual ;
+    rdfs:label "System concept" ;
+    :focuses :requirements_for_system .
+
+:Technical_task a _:ub1bL133C34,
+        owl:NamedIndividual ;
+    rdfs:label "Technical task" ;
+    :scope_and_constrain :work .
+
+:omg_essence a owl:AnnotationProperty .
+
+:Заказчик a :stakeholders,
+        owl:NamedIndividual .
+
+:Рекламодатель a :stakeholders,
+        owl:NamedIndividual ;
+    :provide :ТЗ_реклама,
+        :финансирование .
+
+:Questionnaire a _:ub1bL133C34,
+        _:ub1bL65C21,
+        owl:NamedIndividual ;
+    rdfs:label "Questionnaire" ;
+    :scope_and_constrain :work .
+
+:business_plan a _:ub1bL89C29,
+        owl:NamedIndividual ;
+    rdfs:label "business plan" .
+
+:financing a _:ub1bL125C21,
+        owl:NamedIndividual ;
+    rdfs:label "financing" .
+
+:requirements_App_store_apps a _:ub1bL41C20,
+        owl:NamedIndividual ;
+    rdfs:label "requirements App store apps" .
+
+:requirements_Play_market_apps a _:ub1bL41C20,
+        owl:NamedIndividual ;
+    rdfs:label "requirements Play market apps" .
+
+:requirements_for_system a _:ub1bL53C21,
+        owl:NamedIndividual ;
+    rdfs:label "requirements for system" .
+
+:requirements_for_the_business_plan a _:ub1bL53C21,
+        owl:NamedIndividual ;
+    rdfs:label "requirements for the business plan" .
+
+:system_concept a _:ub1bL89C29,
+        owl:NamedIndividual ;
+    rdfs:label "system concept" .
+
+:technical_task a _:ub1bL65C21,
+        owl:NamedIndividual ;
+    rdfs:label "technical task" .
+
+:technical_task_of_advertising a _:ub1bL41C20,
+        owl:NamedIndividual ;
+    rdfs:label "technical task of advertising" .
+
+:ТЗ_реклама a :requirements,
+        owl:NamedIndividual .
+
+:Требования_app_store a :requirements,
+        owl:NamedIndividual .
+
+:Требования_play_store a :requirements,
+        owl:NamedIndividual .
+
+:финансирование a :opportunity,
+        owl:NamedIndividual .
+
+:Apps_store a :opportunity,
+        owl:NamedIndividual .
+
+:Customer a owl:Class .
+
+:Solution a owl:Class .
+
+:documentations a _:ub1bL162C21,
+        owl:NamedIndividual ;
+    rdfs:label "documentations" .
+
+:platform_apps a _:ub1bL125C21,
+        owl:NamedIndividual ;
+    rdfs:label "platform apps" .
+
+:Endeavor a owl:Class .
+
+:applies a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty :applies ;
+            owl:someValuesFrom :team ] ;
+    rdfs:range [ a owl:Restriction ;
+            owl:onProperty :applies ;
+            owl:someValuesFrom :way_of_working ] .
+
+:demand a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL37C21 ;
+    rdfs:range _:ub1bL41C20 .
+
+:focuses a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL49C22 ;
+    rdfs:range _:ub1bL53C21 .
+
+:fulfils a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL61C22 ;
+    rdfs:range _:ub1bL65C21 .
+
+:guides a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty :guides ;
+            owl:someValuesFrom :way_of_working ] ;
+    rdfs:range [ a owl:Restriction ;
+            owl:onProperty :guides ;
+            owl:someValuesFrom :work ] .
+
+:helps_to_adress a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL85C30 ;
+    rdfs:range _:ub1bL89C29 .
+
+:performs_and_plans a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty :performs_and_plans ;
+            owl:someValuesFrom :team ] ;
+    rdfs:range [ a owl:Restriction ;
+            owl:onProperty :performs_and_plans ;
+            owl:someValuesFrom :work ] .
+
+:produces a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty :produces ;
+            owl:someValuesFrom :team ] ;
+    rdfs:range [ a owl:Restriction ;
+            owl:onProperty :produces ;
+            owl:someValuesFrom :software_system ] .
+
+:provide a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL121C22 ;
+    rdfs:range _:ub1bL125C21 .
+
+:scope_and_constrain a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL133C34 ;
+    rdfs:range _:ub1bL137C33 .
+
+:set_up_to_address a owl:ObjectProperty ;
+    :omg_essence "" ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty :set_up_to_address ;
+            owl:someValuesFrom :work ] ;
+    rdfs:range [ a owl:Restriction ;
+            owl:onProperty :set_up_to_address ;
+            owl:someValuesFrom :opportunity ] .
+
+:support a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL158C22 ;
+    rdfs:range _:ub1bL162C21 .
+
+:updates_and_changes a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty :updates_and_changes ;
+            owl:someValuesFrom :work ] ;
+    rdfs:range [ a owl:Restriction ;
+            owl:onProperty :updates_and_changes ;
+            owl:someValuesFrom :software_system ] .
+
+:use_and_consume a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty :use_and_consume ;
+            owl:someValuesFrom :stakeholders ] ;
+    rdfs:range [ a owl:Restriction ;
+            owl:onProperty :use_and_consume ;
+            owl:someValuesFrom :software_system ] .
+
+:way_of_working a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty :guides ;
+            owl:someValuesFrom :work ],
+        :Endeavor .
+
+:team a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty :applies ;
+            owl:someValuesFrom :way_of_working ],
+        [ a owl:Restriction ;
+            owl:onProperty :performs_and_plans ;
+            owl:someValuesFrom :work ],
+        [ a owl:Restriction ;
+            owl:onProperty :produces ;
+            owl:someValuesFrom :software_system ],
+        :Endeavor .
+
+:software_system a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty :fulfils ;
+            owl:someValuesFrom :requirements ],
+        [ a owl:Restriction ;
+            owl:onProperty :helps_to_adress ;
+            owl:someValuesFrom :opportunity ],
+        :Solution .
+
+:stakeholders a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty :demand ;
+            owl:someValuesFrom :requirements ],
+        [ a owl:Restriction ;
+            owl:onProperty :provide ;
+            owl:someValuesFrom :opportunity ],
+        [ a owl:Restriction ;
+            owl:onProperty :support ;
+            owl:someValuesFrom :team ],
+        [ a owl:Restriction ;
+            owl:onProperty :use_and_consume ;
+            owl:someValuesFrom :software_system ],
+        :Customer .
+
+:opportunity a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty :focuses ;
+            owl:someValuesFrom :requirements ],
+        :Customer .
+
+:requirements a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty :scope_and_constrain ;
+            owl:someValuesFrom :work ],
+        :Solution .
+
+:work a _:ub1bL137C33,
+        owl:Class,
+        owl:NamedIndividual ;
+    rdfs:label "work" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty :set_up_to_address ;
+            owl:someValuesFrom :opportunity ],
+        [ a owl:Restriction ;
+            owl:onProperty :updates_and_changes ;
+            owl:someValuesFrom :software_system ],
+        :Endeavor .
+
+_:ub1bL137C33 a owl:Restriction ;
+    owl:onProperty :scope_and_constrain ;
+    owl:someValuesFrom :work .
+
+_:ub1bL162C21 a owl:Restriction ;
+    owl:onProperty :support ;
+    owl:someValuesFrom :team .
+
+_:ub1bL125C21 a owl:Restriction ;
+    owl:onProperty :provide ;
+    owl:someValuesFrom :opportunity .
+
+_:ub1bL133C34 a owl:Restriction ;
+    owl:onProperty :scope_and_constrain ;
+    owl:someValuesFrom :requirements .
+
+_:ub1bL158C22 a owl:Restriction ;
+    owl:onProperty :support ;
+    owl:someValuesFrom :stakeholders .
+
+_:ub1bL49C22 a owl:Restriction ;
+    owl:onProperty :focuses ;
+    owl:someValuesFrom :opportunity .
+
+_:ub1bL53C21 a owl:Restriction ;
+    owl:onProperty :focuses ;
+    owl:someValuesFrom :requirements .
+
+_:ub1bL61C22 a owl:Restriction ;
+    owl:onProperty :fulfils ;
+    owl:someValuesFrom :software_system .
+
+_:ub1bL65C21 a owl:Restriction ;
+    owl:onProperty :fulfils ;
+    owl:someValuesFrom :requirements .
+
+_:ub1bL85C30 a owl:Restriction ;
+    owl:onProperty :helps_to_adress ;
+    owl:someValuesFrom :software_system .
+
+_:ub1bL89C29 a owl:Restriction ;
+    owl:onProperty :helps_to_adress ;
+    owl:someValuesFrom :opportunity .
+
+_:ub1bL121C22 a owl:Restriction ;
+    owl:onProperty :provide ;
+    owl:someValuesFrom :stakeholders .
+
+_:ub1bL37C21 a owl:Restriction ;
+    owl:onProperty :demand ;
+    owl:someValuesFrom :stakeholders .
+
+_:ub1bL41C20 a owl:Restriction ;
+    owl:onProperty :demand ;
+    owl:someValuesFrom :requirements .
+
