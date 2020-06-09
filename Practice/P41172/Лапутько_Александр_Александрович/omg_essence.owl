@@ -1,481 +1,355 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#"
-     xml:base="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7">
-        <omg_essence></omg_essence>
-    </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#omg_essence -->
-
-    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#omg_essence"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#applies -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#applies">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#applies"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#team"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#applies"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#way_of_working"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#demand -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#demand">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#demand"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#stakeholders"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#demand"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#requirements"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#focuses -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#focuses">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#focuses"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#opportunity"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#focuses"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#requirements"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#fulfils -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#fulfils">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#fulfils"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#fulfils"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#requirements"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#guides -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#guides">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#guides"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#way_of_working"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#guides"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#helps_to_adress -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#helps_to_adress">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#helps_to_adress"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#helps_to_adress"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#opportunity"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#performs_and_plans -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#performs_and_plans">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#performs_and_plans"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#team"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#performs_and_plans"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#produces -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#produces">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#produces"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#team"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#produces"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#provide -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#provide">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#provide"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#stakeholders"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#provide"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#opportunity"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#scope_and_constrain -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#scope_and_constrain">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#scope_and_constrain"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#requirements"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#scope_and_constrain"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#set_up_to_address -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#set_up_to_address">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#set_up_to_address"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#set_up_to_address"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#opportunity"/>
-            </owl:Restriction>
-        </rdfs:range>
-        <omg_essence></omg_essence>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#support -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#support">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#support"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#stakeholders"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#support"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#team"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#updates_and_changes -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#updates_and_changes">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#updates_and_changes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#updates_and_changes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#use_and_consume -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#use_and_consume">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#use_and_consume"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#stakeholders"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#use_and_consume"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Customer -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Customer"/>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Endeavor -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Endeavor"/>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Solution -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Solution"/>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#opportunity -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#opportunity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Customer"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#focuses"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#requirements"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#requirements -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#requirements">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Solution"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#scope_and_constrain"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Solution"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#fulfils"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#requirements"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#helps_to_adress"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#opportunity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#stakeholders -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#stakeholders">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Customer"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#demand"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#requirements"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#provide"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#opportunity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#support"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#team"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#use_and_consume"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#team -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#team">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Endeavor"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#applies"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#way_of_working"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#performs_and_plans"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#produces"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#way_of_working -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#way_of_working">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Endeavor"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#guides"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#work">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#Endeavor"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#set_up_to_address"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#opportunity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#updates_and_changes"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/александр/ontologies/2020/3/untitled-ontology-7#software_system"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-</rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
+@prefix : <http://www.semanticweb.org/alexander/ontologies/2020/3/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/alexander/ontologies/2020/3/> .
+
+<http://www.semanticweb.org/alexander/ontologies/2020/3/> rdf:type owl:Ontology ;
+                                                           :omg_essence "" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/omg_essence
+:omg_essence rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/applies
+:applies rdf:type owl:ObjectProperty ;
+         rdfs:domain [ rdf:type owl:Restriction ;
+                       owl:onProperty :applies ;
+                       owl:someValuesFrom :team
+                     ] ;
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty :applies ;
+                      owl:someValuesFrom :way_of_working
+                    ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/demand
+:demand rdf:type owl:ObjectProperty ;
+        rdfs:domain [ rdf:type owl:Restriction ;
+                      owl:onProperty :demand ;
+                      owl:someValuesFrom :stakeholders
+                    ] ;
+        rdfs:range [ rdf:type owl:Restriction ;
+                     owl:onProperty :demand ;
+                     owl:someValuesFrom :requirements
+                   ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/focuses
+:focuses rdf:type owl:ObjectProperty ;
+         rdfs:domain [ rdf:type owl:Restriction ;
+                       owl:onProperty :focuses ;
+                       owl:someValuesFrom :opportunity
+                     ] ;
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty :focuses ;
+                      owl:someValuesFrom :requirements
+                    ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/fulfils
+:fulfils rdf:type owl:ObjectProperty ;
+         rdfs:domain [ rdf:type owl:Restriction ;
+                       owl:onProperty :fulfils ;
+                       owl:someValuesFrom :software_system
+                     ] ;
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty :fulfils ;
+                      owl:someValuesFrom :requirements
+                    ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/guides
+:guides rdf:type owl:ObjectProperty ;
+        rdfs:domain [ rdf:type owl:Restriction ;
+                      owl:onProperty :guides ;
+                      owl:someValuesFrom :way_of_working
+                    ] ;
+        rdfs:range [ rdf:type owl:Restriction ;
+                     owl:onProperty :guides ;
+                     owl:someValuesFrom :work
+                   ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/helps_to_adress
+:helps_to_adress rdf:type owl:ObjectProperty ;
+                 rdfs:domain [ rdf:type owl:Restriction ;
+                               owl:onProperty :helps_to_adress ;
+                               owl:someValuesFrom :software_system
+                             ] ;
+                 rdfs:range [ rdf:type owl:Restriction ;
+                              owl:onProperty :helps_to_adress ;
+                              owl:someValuesFrom :opportunity
+                            ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/performs_and_plans
+:performs_and_plans rdf:type owl:ObjectProperty ;
+                    rdfs:domain [ rdf:type owl:Restriction ;
+                                  owl:onProperty :performs_and_plans ;
+                                  owl:someValuesFrom :team
+                                ] ;
+                    rdfs:range [ rdf:type owl:Restriction ;
+                                 owl:onProperty :performs_and_plans ;
+                                 owl:someValuesFrom :work
+                               ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/produces
+:produces rdf:type owl:ObjectProperty ;
+          rdfs:domain [ rdf:type owl:Restriction ;
+                        owl:onProperty :produces ;
+                        owl:someValuesFrom :team
+                      ] ;
+          rdfs:range [ rdf:type owl:Restriction ;
+                       owl:onProperty :produces ;
+                       owl:someValuesFrom :software_system
+                     ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/provide
+:provide rdf:type owl:ObjectProperty ;
+         rdfs:domain [ rdf:type owl:Restriction ;
+                       owl:onProperty :provide ;
+                       owl:someValuesFrom :stakeholders
+                     ] ;
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty :provide ;
+                      owl:someValuesFrom :opportunity
+                    ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/scope_and_constrain
+:scope_and_constrain rdf:type owl:ObjectProperty ;
+                     rdfs:domain [ rdf:type owl:Restriction ;
+                                   owl:onProperty :scope_and_constrain ;
+                                   owl:someValuesFrom :requirements
+                                 ] ;
+                     rdfs:range [ rdf:type owl:Restriction ;
+                                  owl:onProperty :scope_and_constrain ;
+                                  owl:someValuesFrom :work
+                                ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/set_up_to_address
+:set_up_to_address rdf:type owl:ObjectProperty ;
+                   rdfs:domain [ rdf:type owl:Restriction ;
+                                 owl:onProperty :set_up_to_address ;
+                                 owl:someValuesFrom :work
+                               ] ;
+                   rdfs:range [ rdf:type owl:Restriction ;
+                                owl:onProperty :set_up_to_address ;
+                                owl:someValuesFrom :opportunity
+                              ] ;
+                   :omg_essence "" .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/support
+:support rdf:type owl:ObjectProperty ;
+         rdfs:domain [ rdf:type owl:Restriction ;
+                       owl:onProperty :support ;
+                       owl:someValuesFrom :stakeholders
+                     ] ;
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty :support ;
+                      owl:someValuesFrom :team
+                    ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/updates_and_changes
+:updates_and_changes rdf:type owl:ObjectProperty ;
+                     rdfs:domain [ rdf:type owl:Restriction ;
+                                   owl:onProperty :updates_and_changes ;
+                                   owl:someValuesFrom :work
+                                 ] ;
+                     rdfs:range [ rdf:type owl:Restriction ;
+                                  owl:onProperty :updates_and_changes ;
+                                  owl:someValuesFrom :software_system
+                                ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/use_and_consume
+:use_and_consume rdf:type owl:ObjectProperty ;
+                 rdfs:domain [ rdf:type owl:Restriction ;
+                               owl:onProperty :use_and_consume ;
+                               owl:someValuesFrom :stakeholders
+                             ] ;
+                 rdfs:range [ rdf:type owl:Restriction ;
+                              owl:onProperty :use_and_consume ;
+                              owl:someValuesFrom :software_system
+                            ] .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/Customer
+:Customer rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/Endeavor
+:Endeavor rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/Solution
+:Solution rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/opportunity
+:opportunity rdf:type owl:Class ;
+             rdfs:subClassOf :Customer ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :focuses ;
+                               owl:someValuesFrom :requirements
+                             ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/requirements
+:requirements rdf:type owl:Class ;
+              rdfs:subClassOf :Solution ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :scope_and_constrain ;
+                                owl:someValuesFrom :work
+                              ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/software_system
+:software_system rdf:type owl:Class ;
+                 rdfs:subClassOf :Solution ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :fulfils ;
+                                   owl:someValuesFrom :requirements
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :helps_to_adress ;
+                                   owl:someValuesFrom :opportunity
+                                 ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/stakeholders
+:stakeholders rdf:type owl:Class ;
+              rdfs:subClassOf :Customer ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :demand ;
+                                owl:someValuesFrom :requirements
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :provide ;
+                                owl:someValuesFrom :opportunity
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :support ;
+                                owl:someValuesFrom :team
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :use_and_consume ;
+                                owl:someValuesFrom :software_system
+                              ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/team
+:team rdf:type owl:Class ;
+      rdfs:subClassOf :Endeavor ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :applies ;
+                        owl:someValuesFrom :way_of_working
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :performs_and_plans ;
+                        owl:someValuesFrom :work
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :produces ;
+                        owl:someValuesFrom :software_system
+                      ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/way_of_working
+:way_of_working rdf:type owl:Class ;
+                rdfs:subClassOf :Endeavor ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :guides ;
+                                  owl:someValuesFrom :work
+                                ] .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/work
+:work rdf:type owl:Class ;
+      rdfs:subClassOf :Endeavor ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :set_up_to_address ;
+                        owl:someValuesFrom :opportunity
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :updates_and_changes ;
+                        owl:someValuesFrom :software_system
+                      ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/AppleStore
+:AppleStore rdf:type owl:NamedIndividual ,
+                     :stakeholders ;
+            :demand :Требования_app_store ;
+            :provide :Apps_store .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/Apps_store
+:Apps_store rdf:type owl:NamedIndividual ,
+                     :opportunity .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/GoogleStore
+:GoogleStore rdf:type owl:NamedIndividual ,
+                      :stakeholders ;
+             :demand :Требования_play_store ;
+             :provide :Apps_store .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/Заказчик
+:Заказчик rdf:type owl:NamedIndividual ,
+                   :stakeholders .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/Рекламодатель
+:Рекламодатель rdf:type owl:NamedIndividual ,
+                        :stakeholders ;
+               :provide :ТЗ_реклама ,
+                        :финансирование .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/ТЗ_реклама
+:ТЗ_реклама rdf:type owl:NamedIndividual ,
+                     :requirements .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/Требования_app_store
+:Требования_app_store rdf:type owl:NamedIndividual ,
+                               :requirements .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/Требования_play_store
+:Требования_play_store rdf:type owl:NamedIndividual ,
+                                :requirements .
+
+
+###  http://www.semanticweb.org/alexander/ontologies/2020/3/финансирование
+:финансирование rdf:type owl:NamedIndividual ,
+                         :opportunity .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

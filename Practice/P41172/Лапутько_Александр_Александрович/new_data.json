@@ -1,0 +1,82 @@
+[
+  {
+    "Object": "Google",
+    "predicate": "provide",
+    "subject": "platform apps"
+  },
+  {
+    "Object": "Google",
+    "predicate": "demand",
+    "subject": "requirements Play market apps"
+  },
+  {
+    "Object": "Google",
+    "predicate": "support",
+    "subject": "documentations"
+  },
+  {
+    "Object": "Apple",
+    "predicate": "provide",
+    "subject": "platform apps"
+  },
+  {
+    "Object": "Apple",
+    "predicate": "demand",
+    "subject": "requirements App store apps"
+  },
+  {
+    "Object": "Apple",
+    "predicate": "support",
+    "subject": "documentations"
+  },
+  {
+    "Object": "Advertiser",
+    "predicate": "provide",
+    "subject": "financing"
+  },
+  {
+    "Object": "Advertiser",
+    "predicate": "demand",
+    "subject": "technical task of advertising"
+  },
+  {
+    "Object": "Business plan",
+    "predicate": "focuses",
+    "subject": "requirements for the business plan"
+  },
+  {
+    "Object": "System concept",
+    "predicate": "focuses",
+    "subject": "requirements for system"
+  },
+  {
+    "Object": "Technical task",
+    "predicate": "scope_and_constrain",
+    "subject": "work"
+  },
+  {
+    "Object": "Questionnaire",
+    "predicate": "scope_and_constrain",
+    "subject": "work"
+  },
+  {
+    "Object": "Design Model",
+    "predicate": "fulfils",
+    "subject": "technical task"
+  },
+  {
+    "Object": "Design Model",
+    "predicate": "helps_to_adress",
+    "subject": "system concept"
+  },
+  {
+    "Object": "Build",
+    "predicate": "fulfils",
+    "subject": "Questionnaire"
+  },
+  {
+    "Object": "Build",
+    "predicate": "helps_to_adress",
+    "subject": "business plan"
+  }
+]
